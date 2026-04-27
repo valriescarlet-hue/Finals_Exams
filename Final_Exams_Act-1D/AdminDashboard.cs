@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+namespace Final_Exams_Act_1D
+{
+    public partial class AdminDashboard : Form
+    {
+        public AdminDashboard()
+        {
+            InitializeComponent();
+        }
+
+        private void lblAdmin_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
