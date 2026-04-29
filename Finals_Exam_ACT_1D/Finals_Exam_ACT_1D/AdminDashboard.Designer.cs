@@ -48,14 +48,14 @@
             btnApprove = new Button();
             btnReject = new Button();
             panel5 = new Panel();
+            txtVehicleID = new TextBox();
+            lblVehicleId = new Label();
             txtModel = new TextBox();
             txtVehicleType = new TextBox();
             lblModel = new Label();
             lblVehicleType = new Label();
             txtPlateNum = new TextBox();
             lblPlateNum = new Label();
-            label1 = new Label();
-            txtVehicleID = new TextBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvHost).BeginInit();
@@ -139,7 +139,6 @@
             txtContactNum.Name = "txtContactNum";
             txtContactNum.Size = new Size(199, 23);
             txtContactNum.TabIndex = 15;
-            txtContactNum.UseSystemPasswordChar = true;
             // 
             // lblContactNum
             // 
@@ -158,7 +157,6 @@
             txtLastName.Name = "txtLastName";
             txtLastName.Size = new Size(199, 23);
             txtLastName.TabIndex = 13;
-            txtLastName.UseSystemPasswordChar = true;
             // 
             // txtFirstName
             // 
@@ -271,7 +269,7 @@
             // 
             panel5.BackColor = Color.LightSteelBlue;
             panel5.Controls.Add(txtVehicleID);
-            panel5.Controls.Add(label1);
+            panel5.Controls.Add(lblVehicleId);
             panel5.Controls.Add(txtModel);
             panel5.Controls.Add(txtVehicleType);
             panel5.Controls.Add(lblModel);
@@ -283,13 +281,30 @@
             panel5.Size = new Size(321, 172);
             panel5.TabIndex = 10;
             // 
+            // txtVehicleID
+            // 
+            txtVehicleID.Location = new Point(126, 135);
+            txtVehicleID.Name = "txtVehicleID";
+            txtVehicleID.Size = new Size(180, 23);
+            txtVehicleID.TabIndex = 15;
+            // 
+            // lblVehicleId
+            // 
+            lblVehicleId.AutoSize = true;
+            lblVehicleId.Font = new Font("Times New Roman", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblVehicleId.ForeColor = Color.White;
+            lblVehicleId.Location = new Point(9, 141);
+            lblVehicleId.Name = "lblVehicleId";
+            lblVehicleId.Size = new Size(75, 17);
+            lblVehicleId.TabIndex = 14;
+            lblVehicleId.Text = "vehicle_id";
+            // 
             // txtModel
             // 
             txtModel.Location = new Point(126, 56);
             txtModel.Name = "txtModel";
             txtModel.Size = new Size(180, 23);
             txtModel.TabIndex = 13;
-            txtModel.UseSystemPasswordChar = true;
             // 
             // txtVehicleType
             // 
@@ -337,24 +352,6 @@
             lblPlateNum.Size = new Size(103, 17);
             lblPlateNum.TabIndex = 8;
             lblPlateNum.Text = "Plate Number:";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(9, 141);
-            label1.Name = "label1";
-            label1.Size = new Size(75, 17);
-            label1.TabIndex = 14;
-            label1.Text = "vehicle_id";
-            // 
-            // txtVehicleID
-            // 
-            txtVehicleID.Location = new Point(126, 135);
-            txtVehicleID.Name = "txtVehicleID";
-            txtVehicleID.Size = new Size(180, 23);
-            txtVehicleID.TabIndex = 15;
             // 
             // AdminDashboard
             // 
@@ -414,6 +411,6 @@
         private TextBox txtPlateNum;
         private Label lblPlateNum;
         private TextBox txtVehicleID;
-        private Label label1;
+        private Label lblVehicleId;
     }
 }

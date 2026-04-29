@@ -596,23 +596,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CL2~PC40\\.nuget\\packages\\": {},
+    "C:\\Users\\CL2~PC38\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CL2~PC40\\Downloads\\Finals_Exams-main\\Finals_Exams-main\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj",
+      "projectUniqueName": "C:\\Users\\CL2~PC38\\Downloads\\Finals_Exams-main\\Finals_Exams-main\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj",
       "projectName": "Finals_Exam_ACT_1D",
-      "projectPath": "C:\\Users\\CL2~PC40\\Downloads\\Finals_Exams-main\\Finals_Exams-main\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj",
-      "packagesPath": "C:\\Users\\CL2~PC40\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CL2~PC40\\Downloads\\Finals_Exams-main\\Finals_Exams-main\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\obj\\",
+      "projectPath": "C:\\Users\\CL2~PC38\\Downloads\\Finals_Exams-main\\Finals_Exams-main\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj",
+      "packagesPath": "C:\\Users\\CL2~PC38\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CL2~PC38\\Downloads\\Finals_Exams-main\\Finals_Exams-main\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\CL2~PC40\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CL2~PC38\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

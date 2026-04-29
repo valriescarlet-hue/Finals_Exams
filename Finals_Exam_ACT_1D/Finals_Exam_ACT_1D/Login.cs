@@ -59,7 +59,7 @@ namespace Finals_Exam_ACT_1D
                 {
                     MessageBox.Show("Login Successful!");
 
-                    if (email == "admin")
+                    if (email == "Admin")
                     {
                         AdminDashboard adminDashboard = new AdminDashboard();
                         adminDashboard.Show();

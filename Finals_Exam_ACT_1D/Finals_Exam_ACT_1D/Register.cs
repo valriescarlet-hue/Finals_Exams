@@ -59,7 +59,7 @@ namespace Finals_Exam_ACT_1D
             {
                 db.Open();
 
-                string query = "INSERT INTO user (firstname,lastname,contactnum,email,password)" + "VALUES (@first_name,@last_name," +
+                string query = "INSERT INTO users (first_name,last_name,contact,email,password)" + "VALUES (@first_name,@last_name," +
                     "@contact,@email,@password)";
 
                 MySql.Data.MySqlClient.MySqlCommand cmd = new MySql.Data.MySqlClient.MySqlCommand(query, db.Connection);
@@ -74,7 +74,7 @@ namespace Finals_Exam_ACT_1D
 
                 cmd.ExecuteNonQuery();
 
-                MessageBox.Show("you have been sucessfully added to ther system!");
+                MessageBox.Show("you have been sucessfully added to the system!");
 
                 txtFirstName.Clear();
                 txtLastName.Clear();

@@ -144,7 +144,6 @@
             txtModel.Name = "txtModel";
             txtModel.Size = new Size(180, 23);
             txtModel.TabIndex = 13;
-            txtModel.UseSystemPasswordChar = true;
             // 
             // txtVehicleType
             // 
@@ -260,7 +259,6 @@
             txtContactNum.Name = "txtContactNum";
             txtContactNum.Size = new Size(199, 23);
             txtContactNum.TabIndex = 15;
-            txtContactNum.UseSystemPasswordChar = true;
             // 
             // lblContactNum
             // 
@@ -279,7 +277,6 @@
             txtLastName.Name = "txtLastName";
             txtLastName.Size = new Size(199, 23);
             txtLastName.TabIndex = 13;
-            txtLastName.UseSystemPasswordChar = true;
             // 
             // txtFirstName
             // 
