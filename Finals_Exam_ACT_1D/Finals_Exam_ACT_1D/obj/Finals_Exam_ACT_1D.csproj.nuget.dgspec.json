@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\InformationTechnolog\\source\\repos\\ACT-1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj": {}
+    "C:\\Users\\CL2~PC40\\Downloads\\Finals_Exams-main\\Finals_Exams-main\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj": {}
   },
   "projects": {
-    "C:\\Users\\InformationTechnolog\\source\\repos\\ACT-1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj": {
+    "C:\\Users\\CL2~PC40\\Downloads\\Finals_Exams-main\\Finals_Exams-main\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\InformationTechnolog\\source\\repos\\ACT-1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj",
+        "projectUniqueName": "C:\\Users\\CL2~PC40\\Downloads\\Finals_Exams-main\\Finals_Exams-main\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj",
         "projectName": "Finals_Exam_ACT_1D",
-        "projectPath": "C:\\Users\\InformationTechnolog\\source\\repos\\ACT-1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj",
-        "packagesPath": "C:\\Users\\InformationTechnolog\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\InformationTechnolog\\source\\repos\\ACT-1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\obj\\",
+        "projectPath": "C:\\Users\\CL2~PC40\\Downloads\\Finals_Exams-main\\Finals_Exams-main\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D.csproj",
+        "packagesPath": "C:\\Users\\CL2~PC40\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CL2~PC40\\Downloads\\Finals_Exams-main\\Finals_Exams-main\\Finals_Exam_ACT_1D\\Finals_Exam_ACT_1D\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\InformationTechnolog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CL2~PC40\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +75,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
